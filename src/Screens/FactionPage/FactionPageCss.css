@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.faction-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4b3b2b; /* Fundo marrom medieval */
+  font-family: 'MedievalSharp', cursive; /* Fonte medieval */
+}
+
+.faction-selection-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  gap: 50px; /* Espaço maior entre as facções */
+}
+
+.faction-container {
+  width: 48%;
+  height: 450px; /* Altura maior para os contêineres das facções */
+  padding: 20px;
+  background-color: #fff8e7; /* Cor de pergaminho */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 5px solid #8b5e34; /* Borda marrom medieval */
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centralizar o conteúdo verticalmente */
+  background-image: url('../../../public/fundo1.png'); /* Textura de pergaminho */
+  background-size: cover;
+  background-position: center;
+}
+
+.faction-container h3 {
+  margin: 10px 0;
+  font-size: 24px; /* Ajuste conforme necessário */
+}
+
+.faction-container p {
+  text-align: center;
+}
+
+.faction-emblem {
+  width: 120px; /* Tamanho maior para os brasões */
+  height: 120px; /* Tamanho maior para os brasões */
+  margin-bottom: 20px;
+}
+
+.faction-left, .faction-right {
+  width: 50%; /* Ajusta a largura dos contêineres das facções */
+}
+
+.faction-left {
+  text-align: left;
+}
+
+.faction-right {
+  text-align: right;
+}
